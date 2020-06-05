@@ -1,0 +1,15 @@
+replacements:
+  - search: personalised-rail-service
+    replace: <%= serviceName %>
+  - search: p-rail
+    replace: <%= serviceNameShort %>
+  - search: personalised_rail_service
+    replace: <%= serviceNameSnakeCase %>
+  - search: https://github.com/getndazn/discovery-personalised-rail-service
+    replace: <%= gitRepo %>
+  - search: github.com/getndazn/discovery-personalised-rail-service
+    replace: <%= gitRepoNoProtocol %>
+  - search: getndazn/discovery-personalised-rail-service
+    replace: <%= gitRepoNoDomain %>
+  - search: API and data infrastructure to serve personalised rails
+    replace: <%= description %>
